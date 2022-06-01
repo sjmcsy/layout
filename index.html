@@ -44,19 +44,14 @@
       }
 
       .container {
-        display: flex;
-        flex-flow: row wrap; 
-      }
-
-      .card {
-        flex: 1 200px;
-        margin: 10px;    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
       }
 
       .tags {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-          
+        display: flex;
+        flex-flow: row wrap; 
+        justify-content: center;           
       }
 
 </style>
